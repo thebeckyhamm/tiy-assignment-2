@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background: #456; 
+    color: white;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 1em;
+}
+
+.main {
+    padding: 1em;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background: #e6e9ec; 
+    border-radius: 4px;
+    display: inline-block;  
+    flex: 1;
+    margin: 5px;
+    padding: 10px; 
+}
+
+.box h3 {
+    color: green;
+    margin-top: 0;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.footer {
+    background: #789; 
+    color: #def; 
+    text-align: right;
+}
+
+.footer p {
+    padding: 1em;
+}
+
